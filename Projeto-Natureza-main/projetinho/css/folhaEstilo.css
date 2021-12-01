@@ -1,0 +1,194 @@
+@charset "utf-8";
+
+/* Classe para limpar a flutuação dos elementos */
+.limpar {
+    clear: both;
+}
+
+/* Reset com o seletor global */
+* {
+    margin: 0;
+    padding: 0;   
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Topo do site */
+header#cabecalho {
+    width: 100%;
+}
+
+header#cabecalho div#logo {
+    background: #ddd url(../imagens/floresta-cabecalho.jpg) no-repeat;
+    background-size: cover;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+header#cabecalho div#logo .img-logo {
+    display: block;
+    margin: 0 auto;
+    width: 90px;
+}
+
+/* Menu de navegação */
+div#menu nav#menu-navegacao {
+    text-align: center;
+    height: 50px;
+    margin-top: 0;
+    background: linear-gradient(60deg , #627D65, rgb(138, 141, 124));
+    background: -o-linear-gradient(60deg , #627D65, rgb(138, 141, 124));
+    background: -moz-linear-gradient(60deg , #627D65, rgb(138, 141, 124));
+    background: -webkit-linear-gradient(60deg , #627D65, rgb(138, 141, 124));
+}
+
+div#menu nav#menu-navegacao ul {
+    list-style: none;
+}
+
+div#menu nav#menu-navegacao li {
+    display: inline-block;
+}
+
+div#menu nav#menu-navegacao a {
+    line-height: 50px;
+    margin-left: 35px;
+    font-size: 1.1em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: darkgreen;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+div#menu nav#menu-navegacao a:hover {
+    color: wheat;
+}
+
+
+/* Interface do conteúdo da página */
+div#conteiner {
+    background: url(../imagens/background.jpg) no-repeat;
+    background-size: cover;
+}
+
+div#conteudo-interface {
+    width: 750px;
+    margin: 0 auto;
+    background: #74791A;
+    padding: 5px 25px;
+    border-radius: 10px;
+    box-shadow: 5px 6px 7px #565902;
+}
+
+div#conteudo-interface article h2 {
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 1.9em;
+    margin: 15px 0;
+    border-bottom: 1px solid #000;
+}
+
+div#conteudo-interface article p {
+    font-family: ubuntu, sans-serif;
+    text-align: justify;
+    text-indent: 5px;
+}
+
+article#artico01 {
+    width: 500px;
+    float: left;
+    padding: 5px 15px;
+}
+ 
+figure {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.espaco-top-article {
+    padding-top: 15px;
+}
+
+/* Conteúdo da aside do lado direito */
+aside#ladoDireito {
+    width: 200px;
+    float: right;
+    padding: 5px 15px;
+    font-family: ubuntu, sans-serif;
+    text-align: justify;
+    text-indent: 5px;
+}
+
+aside#ladoDireito ul {
+    list-style: none;
+}
+aside#ladoDireito li {
+    padding-left: 21px;
+}
+
+ul#lista-ciencias li:hover {
+    color: green;
+}
+
+ul#lista-ciencias abbr {
+    text-decoration: none;
+}
+
+
+/* Classe para inserir as imagens de fundo como marcadores dos intens da lista */
+.biologia {
+    background: url(../imagens/biologia.png) no-repeat left center;
+}
+
+.ciencia-terra {
+    background: url(../imagens/ciencia-terra.png) no-repeat left center;
+}
+
+.ecologia {
+    background: url(../imagens/ecologia.png) no-repeat left center;
+}
+
+.fisica {
+    background: url(../imagens/fisica.png) no-repeat left center;
+}
+
+.geologia {
+    background: url(../imagens/geologico.png) no-repeat left center;
+}
+
+.geografia {
+    background: url(../imagens/geografia.png) no-repeat left center;
+}
+
+.matematica {
+    background: url(../imagens/matematica.png) no-repeat left center;
+}
+
+.quimica {
+    background: url(../imagens/quimica.png) no-repeat left center;
+}
+
+article img {
+    display: block;
+    margin: 0 auto;
+}
+
+img.espaco-img-bottom {
+   margin-bottom: 15px;
+}
+
+/* Rodapé da página do site */
+footer#rodape {
+    width: 100%;
+    background: linear-gradient(60deg , #627D65, rgb(138, 141, 124));
+    background: -o-linear-gradient(60deg , #627D65, rgb(138, 141, 124));
+    background: -moz-linear-gradient(60deg , #627D65, rgb(138, 141, 124));
+    background: -webkit-linear-gradient(60deg , #627D65, rgb(138, 141, 124));
+}
