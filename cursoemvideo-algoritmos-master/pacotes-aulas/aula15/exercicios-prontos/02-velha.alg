@@ -1,4 +1,6 @@
 algoritmo "jogoVelha"
+// Disciplina   : [Linguagem e Lógica de Programação] 
+// Professor   : Antonio Carlos Nicolodi 
 // =============================================================
 // Algoritmo para criar um jogo da velha.
 //
