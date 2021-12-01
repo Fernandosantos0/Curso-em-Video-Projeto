@@ -216,7 +216,7 @@ footer a:hover {
     color: var(--cor1);
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 430px) { 
     nav a {
         display: block;
         text-align: center;
