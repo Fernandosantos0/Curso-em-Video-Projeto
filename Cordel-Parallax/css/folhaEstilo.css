@@ -70,6 +70,8 @@ section p {
 section.imagem {
     background-color: rgba(0, 0, 0, 0.534);
     color: white;
+    box-shadow: inset6px 9px 13px 0 rgba(0, 0, 0, 0.363);
+    background-size: cover;
 }
 
 
@@ -81,11 +83,15 @@ section.imagem > p {
 
 section#img01 {
     background: url('../imagens/background001.jpg');
+    background-size: cover;
     background-position: right center;
+    background-attachment: fixed;
 }
 
 section#img02 {
     background: url('../imagens/background002.jpg');
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 footer {
