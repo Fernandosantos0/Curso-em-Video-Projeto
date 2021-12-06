@@ -64,6 +64,7 @@ section {
 }
 section p {
     font-family: var(--fonte3);
+    padding-bottom: 2em;
 }
 
 section.imagem {
@@ -74,6 +75,14 @@ section.imagem {
 section.imagem > p {
     width: 400px;
     background-color: rgba(0, 0, 0, 0.5);
+}
+
+section#img01 {
+    background: url('../imagens/');
+}
+
+section#img02 {
+    
 }
 
 footer {
